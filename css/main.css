@@ -1,0 +1,76 @@
+:root {
+  scroll-behavior: auto;
+}
+.bg-pink {
+  background-color: #e68285;
+}
+.bg-gray {
+  background-color: #cccccc;
+}
+h1 {
+  font-size: 60px;
+}
+a {
+  text-decoration: none;
+}
+#open,
+h3,
+i {
+  cursor: pointer;
+}
+/* Header */
+header {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+/* Side-Bar */
+#sideBar {
+  opacity: 0;
+  width: 0px;
+}
+#sideBar a:hover,
+#sideBar i:hover {
+  color: #5b1c1e !important;
+}
+/* Details */
+#Details article {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  #Details {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+/* Duration */
+#Duration {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/join.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* Contact */
+#Contact p,
+#Contact i {
+  color: #777;
+  border-color: #999;
+}
+#Contact i:hover,
+button {
+  color: white !important;
+  background-color: #d62e33 !important;
+  border-color: #d62e33;
+}
